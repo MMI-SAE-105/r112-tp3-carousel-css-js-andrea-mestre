@@ -58,10 +58,20 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
   border-radius: 50%;
 }
-.carousel__button--prev {
 
+
+.carousel__button--prev {
   /* Fait pivoter le bouton de 180 degrés - https://developer.mozilla.org/fr/docs/Web/CSS/transform */
   transform: rotate(180deg);
+  position: absolute;
+  left: 130px;
+  top: 600px;
+}
+.carousel__button--next {
+  position: absolute;
+  right: 130px;
+  top: 600px;
+
 }
 
 .carousel__container {
