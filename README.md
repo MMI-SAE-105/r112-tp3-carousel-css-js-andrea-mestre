@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Mestre
+- prénom : Andréa 
+- URL Netlify : https://stately-biscotti-e66837.netlify.app/
 
 # Travail
 
